@@ -4,7 +4,7 @@
 	
 }
 .before,.after{
-	color: #f00;
+	color: rgb(255,0,0);
 	font-size:20px;
 	display:flex;
 	justify-content:inline;
