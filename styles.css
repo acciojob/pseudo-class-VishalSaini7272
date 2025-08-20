@@ -3,9 +3,11 @@
 	margin:20px;
 	
 }
-.before,.after{
-	color: rgb(255,0,0);
-	font-size:20px;
-	display:flex;
-	justify-content:inline;
+div::before {
+  content: "Before Element";
+  color: red;
+}
+div::after {
+  content: "After Element";
+  color: red;
 }
